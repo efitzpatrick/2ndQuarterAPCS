@@ -1,0 +1,30 @@
+/**
+ * Ellie Fitzpatrick
+ * AP Computer Science
+ * Nov 9, 2014
+ * Mrs. Zayas
+ * Fraction Class
+ */
+
+public class Fraction {
+
+	/**
+	 * @param args
+	 */
+	public Fraction add(Fraction frac){
+		int leftNum, rightNum, leftDenom, rightDenom, newNum, newDenom;
+		
+		leftNum = this.numerator;
+		leftDenom = this.denominator;
+		
+		rightNum = frac.getNumerator;
+		rightDenom = frac.getDenominator;
+		
+		Fraction sum = new Fraction(newNum, newDenom);
+		
+		return sum;
+	}
+	public Fraction subtract(Fraction Frac){
+		
+	}
+}
